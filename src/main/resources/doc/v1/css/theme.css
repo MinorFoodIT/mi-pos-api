@@ -1,0 +1,58 @@
+/*
+    Created on : May 17, 2016, 12:34:04 PM
+    Author     : Phillip Kruger (phillip.kruger@gmail.com)
+*/
+
+body {
+    background-image: url("doc/v1/minor-food-logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+.swagger-section #header {
+    background-color: #5c6770;
+    padding: 9px 14px 19px 14px;
+    height: 23px;
+    min-width: 775px;
+}
+.swagger-section #header #logo .logo__img {
+    display: block;
+    float: left;
+    margin-top: -21px;
+}
+
+
+#swagger-ui-footer {
+    position:absolute;
+    width:75%;
+    top:10px;
+    text-align:right;
+}
+
+.rawbutton {
+    padding: 2px 5px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    text-decoration: none;
+}
+.rawbutton:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}

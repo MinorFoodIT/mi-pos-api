@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: "@project.name@"
+  ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mapi?useSSsL=false
+    username: foodit
+    password: minor@1234
+  # The SQL dialect makes Hibernate generate better SQL for the chosen database  
+  # Hibernate ddl auto (create, create-drop, validate, update)
+
+  jpa:
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+          
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: update    
+
+#hibernate.temp.use_jdbc_metadata_defaults false
+#spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults=false
+server:
+  servlet-path: /@project.name@    
+  
+# ===================================================================
+# App specific properties
+# ===================================================================
+
+app:
+  validateDopa: false
+  swagger:
+    contact-name: Food IT
+    contact-email: food_itservicedesk@minor.com
+    contact-url: contactUrl
+    title: Store Platform API #(@project.version@)
+    description: >
+      Provided APIs of @project.name@.
+    version: 1.0
+    term-of-service-url: tosUrl
+    license: license
+    license-url: licenseUrl

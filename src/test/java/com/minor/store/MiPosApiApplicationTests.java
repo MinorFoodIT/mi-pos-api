@@ -1,4 +1,4 @@
-package com.minor.foodit.miposapi;
+package com.minor.store;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
