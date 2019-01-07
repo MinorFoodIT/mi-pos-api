@@ -43,6 +43,7 @@ public class MenuController {
 		}
 
 		BasicResponse<QueryMenuDetailResponse> responseData = new BasicResponse<>(new QueryMenuDetailResponse());
+		responseData.setData(null);
 		
 		return null;
 	}
